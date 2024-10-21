@@ -1,6 +1,6 @@
 import google.generativeai as genai
 
-GOOGLE_API_KEY = 'AIzaSyAYmbLia5ituSZOnTWUqvzSzwYUCrhBc2U'
+GOOGLE_API_KEY = 'Your_API_Key'
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-1.0-pro-latest')
 convo = model.start_chat()
